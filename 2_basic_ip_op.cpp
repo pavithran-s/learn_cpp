@@ -2,7 +2,7 @@
 Get number from user and add integer and print it
 */
 
-#include <iostream>>
+#include <iostream>
 using namespace std;
 
 int main()
