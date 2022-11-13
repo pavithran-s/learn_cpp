@@ -36,7 +36,7 @@ int main() {
     puts("<<<<<>>>>>");
 
     a = &b;
-    a->intro();
+    a->intro(); // it wil run intro() in class Two. But without virtual in class One, this line print the intro in the class One
     
     a = &c;
     a->intro();
